@@ -12,7 +12,8 @@ the JavaScript model object.
 
 It illustrates a mechanism for reaching back into the controller scope of the image
 element container, and from there setting the value of the associated JavaScript
-model using a "bean-like" convention.
+model using a "bean-like" convention. The implementation is influenced by this
+[article](http://tinyurl.com/cncmcqg).
 
 The code also supplies a default image for when the JavaScript model element is empty.
 (I hope you like kittens.)
