@@ -1,0 +1,44 @@
+/* app css stylesheet */
+
+body {
+    font-family: sans-serif;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.control, .imageSearch {
+    display: none;
+}
+
+.wrapper {
+    display: inline-block; /* IE 6 & IE 7 will have a problem with this definition. */
+}
+
+.wrapper:hover img {
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(44, 44, 44, 1);
+    box-shadow: 0 0 0 2px rgba(44, 44, 44, 1);
+}
+.wrapper:hover .control {
+    position: relative;
+    left: 0;
+    bottom: 5px;
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    width: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+p.source {
+    margin-top: 1em;
+    border: 1px solid black;
+    padding: 1em;
+    font-family: monospace;
+    overflow-x: scroll;
+}
